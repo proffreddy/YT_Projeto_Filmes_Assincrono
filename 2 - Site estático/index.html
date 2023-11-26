@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Movie Library</title>
+	<link rel="icon" type="image/png" href="images/icone.png">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div class="telaBloqueio escondido"></div>
+		<div class="telaPopUp sombra escondido">
+				<div class="area_sinopse">
+					<h1>A Lista de Schindler</h1>
+					<p>É uma história real sobre Oskar Schindler, um empresário alemão na Segunda Guerra Mundial. Ele arrisca sua vida para salvar mais de mil judeus do Holocausto, utilizando sua fábrica como refúgio. Schindler e seu contador judeu, Itzhak Stern, criam a "Lista de Schindler", poupando vidas da perseguição nazista. O filme retrata a transformação de um homem motivado pelo lucro para alguém disposto a sacrificar tudo pela salvação de inocentes, mostrando a esperança em meio à escuridão do Holocausto. É uma narrativa poderosa de coragem, compaixão e resistência humanitária.</p>
+				</div>
+				<button id="btnFecharSinopse">Fechar</button>
+		</div>
+	</div>
+
+	<header class="sombra">
+		<div class="areaLogo">
+            <a href="index.html">
+                <img src="images/logoFinal.png" class="logo" />
+            </a>
+        </div>
+        <div class="area-busca">
+        	<input type="text" id="txtFiltro" placeholder="Filmes, Diretores ou Atores" />
+			<button id="btnBuscar"><img src="images/Buscar.png" /></button>
+    	</div>
+    	
+	</header>
+
+	<main class="principal">
+
+		<section class="area_filmes">
+
+			<!-- <div class="loading-container">
+				<div class="loading"></div>
+			</div> -->
+			
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/1.png"/>
+	                <p class="titulo">A Lista de Schindler</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+            <div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/2.png"/>
+	                <p class="titulo">A Origem</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/3.png"/>
+	                <p class="titulo">Batman: O Cavaleiro das Trevas</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/4.png"/>
+	                <p class="titulo">Cidade de Deus</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/5.png"/>
+	                <p class="titulo">Clube da Luta</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/6.png"/>
+	                <p class="titulo">Crepúsculo</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/7.png"/>
+	                <p class="titulo">Forrest Gump: O Contador de Histórias</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/8.png"/>
+	                <p class="titulo">Gladiador</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/9.png"/>
+	                <p class="titulo">Interestelar</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/10.png"/>
+	                <p class="titulo">Matrix</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/11.png"/>
+	                <p class="titulo">O Curioso Caso de Benjamin Button</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/12.png"/>
+	                <p class="titulo">O Labirinto do Fauno</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+			<div class="caixa_filme">
+				<a href="#">
+				<div class="conteudo_caixa_filme sombra">
+	                <img src="images/capas/13.png"/>
+	                <p class="titulo">O Poderoso Chefão</p>
+					<p class="ano">1990</p>
+	            </div>
+	        	</a>
+            </div>
+
+		</section>
+
+	</main>
+</body>
+</html>
